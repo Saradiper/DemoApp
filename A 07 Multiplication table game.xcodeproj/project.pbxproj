@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5629860B27F72A8400DB6335 /* A_07_Multiplication_table_gameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5629860A27F72A8400DB6335 /* A_07_Multiplication_table_gameApp.swift */; };
+		5629860F27F72A8600DB6335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5629860E27F72A8600DB6335 /* Assets.xcassets */; };
+		5629861227F72A8600DB6335 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5629861127F72A8600DB6335 /* Preview Assets.xcassets */; };
+		563425C428002AC800AEA7C8 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563425C328002AC800AEA7C8 /* FirstView.swift */; };
+		563425C82800486A00AEA7C8 /* KeyboardGameButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563425C72800486A00AEA7C8 /* KeyboardGameButton.swift */; };
+		56BF3FF327FAE0D20028EC57 /* BoxFirstViewBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BF3FF227FAE0D20028EC57 /* BoxFirstViewBackground.swift */; };
+		56BF3FF627FAE1780028EC57 /* TitleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BF3FF527FAE1780028EC57 /* TitleBackground.swift */; };
+		56BF3FF827FAE1A40028EC57 /* BoxSecondViewBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BF3FF727FAE1A40028EC57 /* BoxSecondViewBackground.swift */; };
+		56BF3FFA27FAE1CD0028EC57 /* BoxKeyboardBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BF3FF927FAE1CD0028EC57 /* BoxKeyboardBackground.swift */; };
+		56D0CC01280026EC00501F97 /* GameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D0CC00280026EC00501F97 /* GameSettings.swift */; };
+		56D0CC032800273500501F97 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D0CC022800273500501F97 /* SecondView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5629860727F72A8400DB6335 /* A 07 Multiplication table game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "A 07 Multiplication table game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5629860A27F72A8400DB6335 /* A_07_Multiplication_table_gameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A_07_Multiplication_table_gameApp.swift; sourceTree = "<group>"; };
+		5629860E27F72A8600DB6335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5629861127F72A8600DB6335 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		563425C328002AC800AEA7C8 /* FirstView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		563425C72800486A00AEA7C8 /* KeyboardGameButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardGameButton.swift; sourceTree = "<group>"; };
+		56BF3FF227FAE0D20028EC57 /* BoxFirstViewBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxFirstViewBackground.swift; sourceTree = "<group>"; };
+		56BF3FF527FAE1780028EC57 /* TitleBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleBackground.swift; sourceTree = "<group>"; };
+		56BF3FF727FAE1A40028EC57 /* BoxSecondViewBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxSecondViewBackground.swift; sourceTree = "<group>"; };
+		56BF3FF927FAE1CD0028EC57 /* BoxKeyboardBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxKeyboardBackground.swift; sourceTree = "<group>"; };
+		56D0CC00280026EC00501F97 /* GameSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSettings.swift; sourceTree = "<group>"; };
+		56D0CC022800273500501F97 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5629860427F72A8400DB6335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		562985FE27F72A8400DB6335 = {
+			isa = PBXGroup;
+			children = (
+				5629860927F72A8400DB6335 /* A 07 Multiplication table game */,
+				5629860827F72A8400DB6335 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5629860827F72A8400DB6335 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5629860727F72A8400DB6335 /* A 07 Multiplication table game.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5629860927F72A8400DB6335 /* A 07 Multiplication table game */ = {
+			isa = PBXGroup;
+			children = (
+				5629860A27F72A8400DB6335 /* A_07_Multiplication_table_gameApp.swift */,
+				56D0CC042800277900501F97 /* Views */,
+				56D0CC052800282D00501F97 /* ViewModel */,
+				56BF3FF427FAE1030028EC57 /* ViewModifiers */,
+				5629860E27F72A8600DB6335 /* Assets.xcassets */,
+				5629861027F72A8600DB6335 /* Preview Content */,
+			);
+			path = "A 07 Multiplication table game";
+			sourceTree = "<group>";
+		};
+		5629861027F72A8600DB6335 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5629861127F72A8600DB6335 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		56BF3FF427FAE1030028EC57 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				56BF3FF527FAE1780028EC57 /* TitleBackground.swift */,
+				56BF3FF227FAE0D20028EC57 /* BoxFirstViewBackground.swift */,
+				56BF3FF727FAE1A40028EC57 /* BoxSecondViewBackground.swift */,
+				56BF3FF927FAE1CD0028EC57 /* BoxKeyboardBackground.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		56D0CC042800277900501F97 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				563425C328002AC800AEA7C8 /* FirstView.swift */,
+				56D0CC022800273500501F97 /* SecondView.swift */,
+				563425C72800486A00AEA7C8 /* KeyboardGameButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		56D0CC052800282D00501F97 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				56D0CC00280026EC00501F97 /* GameSettings.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5629860627F72A8400DB6335 /* A 07 Multiplication table game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5629861527F72A8600DB6335 /* Build configuration list for PBXNativeTarget "A 07 Multiplication table game" */;
+			buildPhases = (
+				5629860327F72A8400DB6335 /* Sources */,
+				5629860427F72A8400DB6335 /* Frameworks */,
+				5629860527F72A8400DB6335 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "A 07 Multiplication table game";
+			productName = "A 07 Multiplication table game";
+			productReference = 5629860727F72A8400DB6335 /* A 07 Multiplication table game.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		562985FF27F72A8400DB6335 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					5629860627F72A8400DB6335 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 5629860227F72A8400DB6335 /* Build configuration list for PBXProject "A 07 Multiplication table game" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 562985FE27F72A8400DB6335;
+			productRefGroup = 5629860827F72A8400DB6335 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5629860627F72A8400DB6335 /* A 07 Multiplication table game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5629860527F72A8400DB6335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5629861227F72A8600DB6335 /* Preview Assets.xcassets in Resources */,
+				5629860F27F72A8600DB6335 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5629860327F72A8400DB6335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563425C82800486A00AEA7C8 /* KeyboardGameButton.swift in Sources */,
+				56BF3FFA27FAE1CD0028EC57 /* BoxKeyboardBackground.swift in Sources */,
+				56D0CC032800273500501F97 /* SecondView.swift in Sources */,
+				56BF3FF827FAE1A40028EC57 /* BoxSecondViewBackground.swift in Sources */,
+				5629860B27F72A8400DB6335 /* A_07_Multiplication_table_gameApp.swift in Sources */,
+				56BF3FF627FAE1780028EC57 /* TitleBackground.swift in Sources */,
+				563425C428002AC800AEA7C8 /* FirstView.swift in Sources */,
+				56BF3FF327FAE0D20028EC57 /* BoxFirstViewBackground.swift in Sources */,
+				56D0CC01280026EC00501F97 /* GameSettings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5629861327F72A8600DB6335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5629861427F72A8600DB6335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5629861627F72A8600DB6335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"A 07 Multiplication table game/Preview Content\"";
+				DEVELOPMENT_TEAM = ULLP49T4HG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WeSplit.A-07-Multiplication-table-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5629861727F72A8600DB6335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"A 07 Multiplication table game/Preview Content\"";
+				DEVELOPMENT_TEAM = ULLP49T4HG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WeSplit.A-07-Multiplication-table-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5629860227F72A8400DB6335 /* Build configuration list for PBXProject "A 07 Multiplication table game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5629861327F72A8600DB6335 /* Debug */,
+				5629861427F72A8600DB6335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5629861527F72A8600DB6335 /* Build configuration list for PBXNativeTarget "A 07 Multiplication table game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5629861627F72A8600DB6335 /* Debug */,
+				5629861727F72A8600DB6335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 562985FF27F72A8400DB6335 /* Project object */;
+}
